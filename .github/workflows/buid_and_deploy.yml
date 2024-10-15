@@ -28,7 +28,7 @@ jobs:
     - name: Build with Maven
       run: mvn -T 8 -DskipTests=true clean install
 
-    #- name: Publish to GitHub Packages Apache Maven
-    #  run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+    - name: Publish to GitHub Packages Apache Maven
+      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
