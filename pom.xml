@@ -18,7 +18,7 @@
     <packaging>pom</packaging>
 
     <modules>
-<!--        <module>01-service-stack-parent</module>-->
+        <module>01-service-stack-parent</module>
         <module>02-service-stack-shared</module>
         <module>03-service-stack-jpa</module>
         <module>04-service-stack-crypt</module>
