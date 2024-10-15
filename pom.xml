@@ -17,13 +17,6 @@
 
     <packaging>pom</packaging>
 
-    <parent>
-        <groupId>eu.easygo-it.services</groupId>
-        <artifactId>web-app-microservices</artifactId>
-        <version>1.0.241015-S0946</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
-
     <modules>
         <module>01-service-stack-parent</module>
         <module>02-service-stack-shared</module>
@@ -54,12 +47,17 @@
 
     <distributionManagement>
         <repository>
-            <id>nexus-release</id>
-            <url>https://pkgs.dev.azure.com/easygo-it-information-solutions/_packaging/release/maven/v1</url>
+            <id>github</id>
+            <name>GitHub EASYGO-IT Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/easygo-it/00-service-stack</url>
         </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>https://pkgs.dev.azure.com/easygo-it-information-solutions/_packaging/release/maven/v1</url>
-        </snapshotRepository>
     </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub EASYGO-IT Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
+        </repository>
+    </repositories>
 </project>
