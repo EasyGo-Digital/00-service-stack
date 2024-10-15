@@ -1,0 +1,28 @@
+package eu.easygoit.dto.common;
+
+
+import eu.easygoit.dto.extendable.AbstractAuditableDto;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
+
+import java.io.Serializable;
+
+/**
+ * The type File entity dto.
+ *
+ * @param <T> the type parameter
+ */
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@SuperBuilder
+public class FileEntityDto<T extends Serializable> extends AbstractAuditableDto<T> {
+
+    private String fileName;
+    private String originalFileName;
+    private String path;
+    private String extension;
+    private String type;
+}
