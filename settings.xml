@@ -132,13 +132,7 @@ under the License.
         -->
 
         <server>
-            <id>00-service-stack</id>
-            <username>EasyGo-Digital</username>
-            <password>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</password>
-        </server>
-
-        <server>
-            <id>01-service-core</id>
+            <id>github</id>
             <username>EasyGo-Digital</username>
             <password>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</password>
         </server>

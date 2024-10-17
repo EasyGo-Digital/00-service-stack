@@ -76,7 +76,7 @@
         <repository>
             <id>github</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/release</url>
         </repository>
     </distributionManagement>
 
@@ -84,7 +84,7 @@
         <repository>
             <id>github</id>
             <name>GitHub EASYGO-IT Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/EasyGo-Digital/00-service-stack</url>
+            <url>https://maven.pkg.github.com/EasyGo-Digital/release</url>
         </repository>
     </repositories>
 </project>
