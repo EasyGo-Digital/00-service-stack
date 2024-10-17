@@ -10,7 +10,7 @@
 
     <groupId>eu.easygo-it.services</groupId>
     <artifactId>service-stack</artifactId>
-    <version>1.0.241015-S0946</version>
+    <version>1.0.241017-S0215</version>
 
     <name>service-stack</name>
     <description>service-stack</description>

@@ -11,7 +11,7 @@
 
     <groupId>eu.easygo-it.services</groupId>
     <artifactId>service-stack-crypt</artifactId>
-    <version>1.0.241015-S0946</version>
+    <version>1.0.241017-S0215</version>
 
     <name>service-stack-crypt</name>
     <description>service-stack-crypt</description>
@@ -21,7 +21,7 @@
     <parent>
         <groupId>eu.easygo-it.services</groupId>
         <artifactId>service-stack</artifactId>
-        <version>1.0.241015-S0946</version>
+        <version>1.0.241017-S0215</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
