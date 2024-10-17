@@ -28,9 +28,11 @@ jobs:
     - name: Build with Maven
       run: mvn clean install -s settings.xml -T 8 -DskipTests=true
       env:
+        USER_NAME: ${{ github.actor }}
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy -s settings.xml
       env:
+        USER_NAME: ${{ github.actor }}
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
