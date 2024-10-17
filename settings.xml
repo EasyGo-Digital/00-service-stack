@@ -134,13 +134,13 @@ under the License.
         <server>
             <id>00-service-stack</id>
             <username>EasyGo-Digital</username>
-            <password>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</password>
+            <password>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</password>
         </server>
 
         <server>
             <id>01-service-core</id>
             <username>EasyGo-Digital</username>
-            <password>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</password>
+            <password>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</password>
         </server>
     </servers>
 
